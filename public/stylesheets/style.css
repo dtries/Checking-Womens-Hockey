@@ -26,6 +26,18 @@ nav .brand-logo,
   -webkit-filter: blur(5px);
 }
 
+#body-pic1 {
+    background-image: url("../images/background2.jpg");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+#body-pic2 {
+  background-image: url("../images/background3.jpg");
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 .main-title,
 .main-subtitle {
   color: #C8C372;
@@ -45,7 +57,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
