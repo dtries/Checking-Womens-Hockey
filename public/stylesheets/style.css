@@ -95,6 +95,11 @@ p {
   color: #26a69a;
 }
 
+.reference-text {
+  padding-left: 5ch;
+  text-indent: -5ch;
+}
+
 .parallax-container {
   min-height: 500px;
   line-height: 0;
