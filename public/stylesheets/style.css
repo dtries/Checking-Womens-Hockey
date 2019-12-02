@@ -102,12 +102,12 @@ p {
 .reference-text {
   padding-left: 5ch;
   text-indent: -5ch;
+  word-wrap: break-word;
 }
 
 .parallax-container {
   min-height: 100px;
   line-height: 0;
-  /* height: 150px; */
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -159,10 +159,16 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
-/* 
+
   body {
-    width: 150%;
-  } */
+    width: 135%;
+  }
+
+  #video-player {
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+  }
 
   .section3-title {
     margin-top: 0;
@@ -183,8 +189,15 @@ p {
 @media only screen and (max-width : 320px) {
   
   body {
-    margin: auto;
+    width: 150%;
   }
+
+  #video-player {
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+  }
+  
 }
 
 .icon-block {
