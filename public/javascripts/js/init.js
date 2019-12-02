@@ -1,7 +1,7 @@
 (function($){
   $(function(){
 
-    $('.sidenav').sidenav();
+    // $('.sidenav').sidenav();
     $('.parallax').parallax();
 
   }); // end of document ready

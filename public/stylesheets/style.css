@@ -101,9 +101,9 @@ p {
 }
 
 .parallax-container {
-  min-height: 500px;
+  min-height: 100px;
   line-height: 0;
-  height: auto;
+  /* height: 150px; */
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -125,13 +125,36 @@ p {
     top: 40%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 5%;
+    font-size: 65%; 
   }
+
+  #action-call-text {
+    font-size: 200%;
+    line-height: 1.2;
+  }
+
 }
 
 @media only screen and (max-width : 600px) {
+
+  body {
+    width: 150%;
+  }
+
+  .section3-title {
+    margin-top: 0;
+    font-size: 350%;
+    margin-bottom: 0%; 
+  }
+
   #index-banner .section {
     top: 0;
+  }
+
+  #action-call-text {
+    font-size: 180%;
+    line-height: 1.1;
   }
 }
 
