@@ -161,7 +161,7 @@ p {
 @media only screen and (max-width : 600px) {
 
   body {
-    width: 135%;
+    width: 100%;
   }
 
   #video-player {
