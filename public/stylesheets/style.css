@@ -170,6 +170,11 @@ p {
     height: auto;
   }
 
+  #action-call,
+#index-banner {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
   .section3-title {
     margin-top: 0;
     font-size: 350%;
@@ -181,7 +186,7 @@ p {
   }
 
   #action-call-text {
-    font-size: 180%;
+    font-size: 170%;
     line-height: 1.1;
   }
 }
