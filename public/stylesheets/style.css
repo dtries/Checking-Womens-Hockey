@@ -11,6 +11,10 @@ body {
   color: #C8C372;
 } 
 
+html {
+  width: 100%;
+}
+
 .brand-logo {
   height: 100%;
 }
@@ -49,7 +53,6 @@ nav .brand-logo,
   color: #C8C372;
   font-weight: bold;
   text-align: center;
-  /* text-shadow: 4px 4px 0px #1E4D2B; */
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -68,8 +71,14 @@ h5 {
   font-size: 150%;
 }
 
+.section3-title {
+  margin-top: 0;
+  font-size: 300%;
+  margin-bottom: 0%; 
+}
+
 .section3-text {
-  font-size: 175%;
+  font-size: 155%;
   color: #C8C372;
   font-weight: bolder;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -85,15 +94,10 @@ h5 {
   color: #C8C372;
 }
 
-
-
 p {
   line-height: 2rem;
 }
 
-.sidenav-trigger {
-  color: #26a69a;
-}
 
 .reference-text {
   padding-left: 5ch;
@@ -119,6 +123,24 @@ p {
   color: darkblue;
 }
 
+@media only screen and (max-width : 1367px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 5%;
+    font-size: 65%; 
+  }
+
+  #action-call-text {
+    font-size: 210%;
+    line-height: 1.2;
+  }
+
+}
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -137,10 +159,10 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
-
+/* 
   body {
     width: 150%;
-  }
+  } */
 
   .section3-title {
     margin-top: 0;
@@ -155,6 +177,13 @@ p {
   #action-call-text {
     font-size: 180%;
     line-height: 1.1;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+  
+  body {
+    margin: auto;
   }
 }
 
